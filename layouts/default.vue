@@ -14,8 +14,11 @@
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
                 Home
             </b-navbar-item>
-            <b-navbar-item tag="router-link" :to="{ path: '/sobre' }">
-                Sobre
+            <b-navbar-item tag="router-link" :to="{ path: '/categorias' }">
+                Categorias
+            </b-navbar-item>
+            <b-navbar-item tag="router-link" :to="{ path: '/detalhes' }">
+                Detalhes do curso
             </b-navbar-item>
         </template>
 
